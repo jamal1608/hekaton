@@ -1,0 +1,93 @@
+.main{
+    background-color: black;
+}
+
+
+
+.mainimg{
+    background-image: url(media/pexels-oleksandr-p-1007901.jpg);
+    
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+}
+.mainimg h1{
+    color: rgb(15, 194, 243);
+    font-weight: 800;
+    margin-top: 15%;
+    margin-left: 50%;
+    font-size: 60PX;
+}
+.mainimg p{
+    color: rgb(231, 10, 10);
+    margin-left: 50%;
+    font-size: x-large;
+    font-weight: 500;
+
+}
+ul{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+    list-style: none;
+    gap: 30px;
+}
+li{
+    font-size: large;
+    font-weight: 500;
+    color: rgb(69, 51, 51);
+    cursor: pointer;
+}
+.main2{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.input{
+    width: 70%;
+    height: 120px;
+    display: flex;
+    background-color: bisque;
+    margin-left: 15%;
+}
+.doc{
+    width: 382px;
+    height: 53px;
+
+}
+.main3{
+    width: 100%;
+    height: 300px;
+}
+.main3 p{
+    text-align: left;
+    font-weight: 600;
+    font-size: x-large;
+    margin-left: 20px;
+    color: white;
+}
+.cards3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+    position: relative;
+}
+.card31{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+.email{
+    background-color: rgb(13, 13, 88);
+    width: 100%;
+    height: 150px;
+}
